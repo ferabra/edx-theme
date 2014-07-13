@@ -21,7 +21,7 @@ $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%); 
 
 //Sandstone Color Variables
-$sandstone: #2cb4b7;
+$sandstone: #bbbcbe;
 $sandstone-50: lighten($sandstone, 9%);
 $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color 
 
@@ -64,8 +64,9 @@ $content-wrapper-bg: $gray-1;
 $header-image: none;
 $header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
-$courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
-$footer-bg: $sandstone-25;
+#$courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
+$courseware-header-bg: transparentize($sandstone), .25);
+$footer-bg: $sandstone;
 $courseware-footer-border: 1px solid $beige-60;
 $courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
 $courseware-footer-margin: 50px;
@@ -153,11 +154,11 @@ $outer-border-color: $beige-60;
 
 $sidebar-color: $gray-1;
 
-$homepage__header--gradient__color--alpha: $sandstone-25;
-$homepage__header--gradient__color--bravo: $sandstone-25;
-$homepage__header--background: $sandstone-25;
+$homepage__header--gradient__color--alpha: $sandstone;
+$homepage__header--gradient__color--bravo: $sandstone;
+$homepage__header--background: $sandstone;
 $dashboard-profile-header-image: none;
-$dashboard-profile-header-color: $sandstone-25;
+$dashboard-profile-header-color: $sandstone;
 $dashboard-profile-color: $gray-3;
 $dot-color: $beige-60;
 
