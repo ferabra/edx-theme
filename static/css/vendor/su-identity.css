@@ -261,8 +261,11 @@ http://stever.ca
 http://www.cssstickyfooter.com
 */
 
-html, body {
-	height: 100%;
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
 }
 /*#su-wrap {*/
 	/*min-height: 100%;*/
