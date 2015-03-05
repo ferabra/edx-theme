@@ -254,6 +254,17 @@ Media queries
   }
 }
 
+/*Agregados por 256ideas*/
+
+#su-footer-powered {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher 
