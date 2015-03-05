@@ -169,7 +169,7 @@ Media queries
   }
   /* Footer single column */
   #su-footer .span2 {
-    float:left;
+    float:right;
     width:104px;
     padding-left:8px; /* Prevent flush left */
   }
