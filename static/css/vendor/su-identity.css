@@ -265,6 +265,10 @@ Media queries
   margin-top: 20px;
 }
 
+.content-wrapper {
+  min-height: 800px;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher 
