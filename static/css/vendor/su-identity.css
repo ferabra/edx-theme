@@ -87,11 +87,12 @@
 #su-footer-text ul {
   margin: 2px 0 0;
   padding: 0;
-  line-height: 1em;
+  line-height: 1.4em;
 }
 
 #su-footer-text ul li {
   display: block;
+  color: #FFFFFF;
   list-style: none;
 }
 
@@ -115,7 +116,7 @@
 /* Footer two columns */
 #su-footer .span2 {
   width: 48%;
-  float: left;
+  float: right;
 }
 
 #su-footer .span10 {
@@ -199,7 +200,6 @@ Media queries
   	padding:0;
   	float:none;
   	clear:left;
-    display:inline-block;
   }
 
   #bottom-logo {
@@ -265,7 +265,7 @@ html{
   height: 100%;
 }
 body {
-  min-height: 100%;
+  min-height: 800px;
 }
 /*#su-wrap {*/
 	/*min-height: 100%;*/
