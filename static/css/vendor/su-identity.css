@@ -47,8 +47,8 @@
 
 #su-footer,
 #su-footer .su-container {
-  background: #33cccc;
-  color: #33cccc;
+  background: #8366FF;
+  color: #8366FF;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
 
@@ -87,11 +87,12 @@
 #su-footer-text ul {
   margin: 2px 0 0;
   padding: 0;
-  line-height: 1em;
+  line-height: 1.4em;
 }
 
 #su-footer-text ul li {
   display: block;
+  color: #FFFFFF;
   list-style: none;
 }
 
@@ -115,7 +116,7 @@
 /* Footer two columns */
 #su-footer .span2 {
   width: 48%;
-  float: left;
+  float: right;
 }
 
 #su-footer .span10 {
@@ -168,7 +169,7 @@ Media queries
   }
   /* Footer single column */
   #su-footer .span2 {
-    float:left;
+    float:right;
     width:104px;
     padding-left:8px; /* Prevent flush left */
   }
@@ -199,7 +200,6 @@ Media queries
   	padding:0;
   	float:none;
   	clear:left;
-    display:inline-block;
   }
 
   #bottom-logo {
@@ -254,6 +254,21 @@ Media queries
   }
 }
 
+/*Agregados por 256ideas*/
+
+#su-footer-powered {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.content-wrapper {
+  min-height: 800px;
+}
+
 /*
 Sticky Footer Solution
 by Steve Hatcher 
@@ -265,7 +280,7 @@ html{
   height: 100%;
 }
 body {
-  min-height: 100%;
+  min-height: 800px;
 }
 /*#su-wrap {*/
 	/*min-height: 100%;*/
