@@ -35,7 +35,7 @@
           <img src="${static.url('themes/stanford/images/footer_logo.png')}" alt="e-huesped"/>
         </a>
           %if course is not None:
-            <img src="${course_image_url(course)}" alt="" />
+            <img src="" alt="${get_course_about_section(course, 'short_description')}" />
           %endif
       </div>
 
