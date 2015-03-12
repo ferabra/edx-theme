@@ -34,8 +34,8 @@
         <a href="http://huesped.org.ar">
           <img src="${static.url('themes/stanford/images/footer_logo.png')}" alt="e-huesped"/>
         </a>
-          %if course is not None:
-            <img src="" alt="${get_course_about_section(course, 'short_description')}" />
+          %if course is not UNDEFINED:
+            <img src="" alt="${get_course_about_section(course, 'title')}" />
           %endif
       </div>
 
