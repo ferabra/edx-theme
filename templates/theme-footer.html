@@ -33,7 +33,7 @@
       <div id="su-footer-logo" class="span2">
         <a href="http://huesped.org.ar">
           <img src="${static.url('themes/stanford/images/footer_logo.png')}" alt="e-huesped"/>
-          % if course not None:
+          % if course is not None:
             <img src="${course_image_url(course)}" alt="" />
           % endif
         </a>
