@@ -2,6 +2,7 @@
 <%! 
   from django.core.urlresolvers import reverse 
   from edxmako.shortcuts import marketing_link
+  from courseware.courses import course_image_url
 %>
 <%namespace name='static' file='/static_content.html'/>
 
@@ -32,6 +33,9 @@
       <div id="su-footer-logo" class="span2">
         <a href="http://huesped.org.ar">
           <img src="${static.url('themes/stanford/images/footer_logo.png')}" alt="e-huesped"/>
+          % if course not None:
+            <img src="${course_image_url(course)}" alt="" />
+          % endif
         </a>
       </div>
 
