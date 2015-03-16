@@ -21,7 +21,7 @@
     </div>
      %if course is not UNDEFINED:
             <div align='right' id="${course.id}">
-            %if course.id == "HUESPED/CME001/2014":
+            %if course.id == 'HUESPED/CME001/2014':
               <img src="${static.url('themes/stanford/images/footerhuesped.jpg')}" alt="e-huesped"/>
             %endif
             </div>
@@ -41,9 +41,6 @@
         <a href="http://huesped.org.ar">
           <img src="${static.url('themes/stanford/images/footer_logo.png')}" alt="e-huesped"/>
         </a>
-          %if course is not UNDEFINED:
-            <div id="${course.id}"></div>
-          %endif
       </div>
 
       <div id="su-footer-text" class="span10">
