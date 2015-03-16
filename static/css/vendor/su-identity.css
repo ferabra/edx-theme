@@ -269,9 +269,10 @@ Media queries
   min-height: 800px;
 }
 
-#courselogo .CME001 {
+.courselogo .CME001 {
    background-image: url("../../images/logohuesped.jpg");
    background-color: #bbbcbe;
+   width:100px;
 }
 
 
