@@ -19,6 +19,13 @@
         </ol>
       </nav>
     </div>
+     %if course is not UNDEFINED:
+            <div align='right' id="${course.id}">
+            %if course.id == "HUESPED/CME001/2014":
+              <img src="${static.url('themes/stanford/images/footerhuesped.jpg')}" alt="e-huesped"/>
+            %endif
+            </div>
+     %endif
 <!--
     <div class="references">
       <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
