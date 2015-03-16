@@ -20,11 +20,7 @@
       </nav>
     </div>
      %if course is not UNDEFINED:
-            <div align='right' id="${course.id}">
-            %if course.id == 'HUESPED/CME001/2014':
-              <img src="${static.url('themes/stanford/images/footerhuesped.jpg')}" alt="e-huesped"/>
-            %endif
-            </div>
+            <div align='right' class="${course.id}"></div>
      %endif
 <!--
     <div class="references">
