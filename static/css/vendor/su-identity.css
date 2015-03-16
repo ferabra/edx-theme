@@ -269,6 +269,12 @@ Media queries
   min-height: 800px;
 }
 
+#courselogo .CME001 {
+   background-image: url("../themes/stanford/images/logohuesped.jpg");
+   background-color: #bbbcbe;
+}
+
+
 /*
 Sticky Footer Solution
 by Steve Hatcher 
