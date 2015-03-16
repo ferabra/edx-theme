@@ -20,7 +20,8 @@
       </nav>
     </div>
      %if course is not UNDEFINED:
-            <div align='right' class=courselogo "${course.display_number_with_default}"></div>
+        %curso == course.display_number_with_default
+        <div align='right' class=courselogo "${curso}"></div>
      %endif
 <!--
     <div class="references">
