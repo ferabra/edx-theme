@@ -230,7 +230,7 @@ Media queries
 
   #su-footer .span10 {
     width:780px;
-  }
+  }x
 }
 
 @media screen and (min-width: 1200px) {
@@ -270,7 +270,7 @@ Media queries
 }
 
 .CME001 {
-   background-image: url("../../images/logohuesped.jpg");
+   background-image: url("../../images/logosudafrica.png");
    background-color: #bbbcbe;
    width:200px;
    height:100px;
