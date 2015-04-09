@@ -367,6 +367,10 @@ Media queries
 	text-align: center;
 }
 
+.su-footer-social-list a {
+  display: inline-block;
+}
+
 #su-footer .su-footer-poweredby {
 	display: inline-block;
 	float: right;
