@@ -326,9 +326,9 @@ Media queries
 }
 
 #su-footer .su-footer-logo img {
-	width:100%;
-	min-width:100px;
-	max-width:176px;
+	width: 100%;
+	min-width: 100px;
+	max-width: 215px;
 }
 
 #su-footer ul {
