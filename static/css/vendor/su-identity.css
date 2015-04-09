@@ -230,7 +230,7 @@ Media queries
 
   #su-footer .span10 {
     width:780px;
-  }x
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -275,6 +275,118 @@ Media queries
    width:400px;
    height:113px;
 }
+
+/* Start new footer */
+#su-footer, 
+#su-footer .su-container {
+  background: #ed2840;
+  color: #fff;
+  box-shadow: inset 0 14px 10px -12px rgba(0, 0, 0, 0.2)
+}
+
+#su-footer .su-container .su-row {
+  display: inline-block;
+  width: 100%;
+}
+
+#su-footer a:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+#su-footer .su-footer-developed {
+  width: 44%;
+  margin-right: 6%;
+  float: left;
+  display: inline-block;
+  text-align: justify;
+  line-height: 16pt;
+}
+
+#su-footer .su-footer-about {
+  width: 14%;
+  margin-right: 2%;
+  float: left;
+  display: inline-block;
+  line-height: 16pt;
+}
+
+#su-footer .su-footer-tos {
+  width: 14%;
+  margin-right: 2%;
+  display: inline-block;
+  float: left;
+  line-height: 16pt;
+}
+
+#su-footer .su-footer-logo {
+  width: 16%;
+  display: inline-block;
+  float: right;
+}
+
+#su-footer .su-footer-logo img {
+	width:100%;
+	min-width:100px;
+	max-width:176px;
+}
+
+#su-footer ul {
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+
+#su-footer ul.su-footer-list {
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.su-footer-social-list {
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+  
+}
+
+#su-footer .su-footer-social-title {
+	width: 100%;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#su-footer .su-footer-social-links {
+	width: 100%;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}
+
+#su-footer .su-footer-poweredby {
+	display: inline-block;
+	float: right;
+	width: 15%;
+	text-align: right;
+	font-size: 10pt;
+}
+
+#su-footer ul.su-footer-social-list li { 
+	display: inline; 
+}
+
+#su-footer ul li {
+  width: auto;
+  margin: 0 13px 10px 0;
+  padding: 0;
+  float: none;
+  clear: left;
+}
+/* End new footer */
 
 
 /*
