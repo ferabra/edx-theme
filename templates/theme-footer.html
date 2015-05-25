@@ -3,6 +3,7 @@
   from django.core.urlresolvers import reverse 
   from edxmako.shortcuts import marketing_link
   from courseware.courses import course_image_url
+  from django.utils.translation import ugettext as _ 
 %>
 <%namespace name='static' file='/static_content.html'/>
 
@@ -38,7 +39,7 @@
 				<ul class="su-footer-list">
 					<li><a href="/about">About e&#8209;Huesped</a></li>
 					<li><a href="/faq">FAQ</a></li>
-					<li><a href="/">Find Courses</a></li>
+					<li><a href="/">${_("Find Courses")}</a></li>
 				</ul>
 			</div>
 			<div class="su-footer-tos">
