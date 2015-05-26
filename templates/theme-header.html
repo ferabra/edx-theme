@@ -21,24 +21,7 @@
   <li class="nav-global-01">
     <a href="${marketing_link('FAQ')}">FAQ</a>
   </li>
-  bbbbb
-</%block>
-
-## When authenticated, show both the about page and find courses
-<%block name="navigation_global_links_authenticated">
-  <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">About</a>
-  </li>
-  <li class="nav-global-01">
-    <a href="${marketing_link('FAQ')}">FAQ</a>
-  </li>
-  <li class="nav-global-02">
-    <a href="${marketing_link('COURSES')}">Find Courses</a>
-  </li>
-  aaaa
-</%block>
-
-<ol class="right nav-courseware languages_choice">
+  <ol class="right nav-courseware languages_choice">
       <li>
         <ul>
             <li class="language_item">
@@ -58,3 +41,18 @@
         </ul>
       </li>
     </ol>
+</%block>
+
+## When authenticated, show both the about page and find courses
+<%block name="navigation_global_links_authenticated">
+  <li class="nav-global-01">
+    <a href="${marketing_link('ABOUT')}">About</a>
+  </li>
+  <li class="nav-global-01">
+    <a href="${marketing_link('FAQ')}">FAQ</a>
+  </li>
+  <li class="nav-global-02">
+    <a href="${marketing_link('COURSES')}">Find Courses</a>
+  </li>
+  aaaa
+</%block>
