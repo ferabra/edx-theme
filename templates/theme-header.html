@@ -30,7 +30,7 @@
                   <input name="next" type="hidden" value="/">
                   <input type="hidden" name="language" value="en">
                   <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" />
-                  <a href="#" class="flag_en" onclick="document.setLangEnglish.submit();return false;">EN</a>
+                  <a href="#" class="flag_en" onclick="document.setLangEnglish.submit();return false;">ENG</a>
               </form>
             </li>
             <li class="language_item">
@@ -38,7 +38,15 @@
                   <input name="next" type="hidden" value="/">
                   <input type="hidden" name="language" value="fr">
                   <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" /> 
-                  <a href="#" class="flag_fr" onclick="document.setLangFrançais.submit();return false;">FR</a>
+                  <a href="#" class="flag_fr" onclick="document.setLangFrançais.submit();return false;">ESP</a>
+              </form>
+            </li>
+			<li class="language_item">
+              <form name="setLangFrançais" action="/i18n/setlang/" method="POST">
+                  <input name="next" type="hidden" value="/">
+                  <input type="hidden" name="language" value="pt-pt">
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" /> 
+                  <a href="#" class="flag_fr" onclick="document.setLangFrançais.submit();return false;">POR</a>
               </form>
             </li>
         </ul>
