@@ -28,7 +28,7 @@
               <form name="setLangEnglish" action="/i18n/setlang/" method="POST">
                   <input name="next" type="hidden" value="/">
                   <input type="hidden" name="language" value="en">
-                  <input type="hidden" name="csrfmiddlewaretoken" value="%s" /> % (csrf_token)
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${ csrftoken }" />
                   <a href="#" class="flag_en" onclick="document.setLangEnglish.submit();return false;">EN</a>
               </form>
             </li>
@@ -36,7 +36,7 @@
               <form name="setLangFrançais" action="/i18n/setlang/" method="POST">
                   <input name="next" type="hidden" value="/">
                   <input type="hidden" name="language" value="fr">
-                  <input type="hidden" name="csrfmiddlewaretoken" value="%s" /> % (csrf_token)
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${ csrftoken }" /> 
                   <a href="#" class="flag_fr" onclick="document.setLangFrançais.submit();return false;">FR</a>
               </form>
             </li>
