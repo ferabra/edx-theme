@@ -276,6 +276,18 @@ Media queries
    height:113px;
 }
 
+.su-footer-developed a {
+  text-decoration: underline;
+}
+
+
+.languages_choice {
+  margin-left: 50px;
+  margin-top: 1px;
+}
+
+
+
 /* Start new footer */
 #su-footer, 
 #su-footer .su-container {
