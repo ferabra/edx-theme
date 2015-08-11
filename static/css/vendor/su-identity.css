@@ -404,6 +404,18 @@ Media queries
 }
 /* End new footer */
 
+/*  FAQ styles */
+
+
+li.pregunta { 
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+li.respuesta { 
+	font-weight:bold;
+}
 
 /*
 Sticky Footer Solution
