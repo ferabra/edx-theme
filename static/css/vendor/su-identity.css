@@ -413,8 +413,28 @@ li.pregunta {
 	margin-bottom:10px;
 }
 
-li.respuesta { 
+li.respuesta { 	
+}
+
+ul.faq { list-style-type: none; }
+
+ul.faqlanguage { 
+
+list-style-type: none; 
+display:inline;
+padding-right:30px;
+
+}
+
+
+h2.faqtitle {
+	font-size:1.3em;
 	font-weight:bold;
+}
+
+h3.faqsubtitle {
+	font-size:1.2em;
+	margin-top:10px;
 }
 
 /*
