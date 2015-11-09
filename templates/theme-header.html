@@ -1,5 +1,6 @@
 ## mako
 <%! from django.core.urlresolvers import reverse %>
+<%! from django.utils.translation import ugettext as _ %>
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 
@@ -16,11 +17,41 @@
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">About</a>
+    <a href="${marketing_link('ABOUT')}">${_("About")}</a>
   </li>
   <li class="nav-global-01">
-    <a href="${marketing_link('FAQ')}">FAQ</a>
+    <a href="${marketing_link('FAQ')}">${_("FAQ")}</a>
   </li>
+  <ol class="right nav-courseware languages_choice">
+      <li>
+        <ul>
+            <li class="language_item">
+              <form name="setLangEnglish" action="/i18n/setlang/" method="POST">
+                  <input name="next" type="hidden" value="/">
+                  <input type="hidden" name="language" value="en">
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" />
+                  <a href="#" class="flag_en" onclick="document.setLangEnglish.submit();return false;">ENG</a>
+              </form>
+            </li>
+            <li class="language_item">
+              <form name="setLangSpanish" action="/i18n/setlang/" method="POST">
+                  <input name="next" type="hidden" value="/">
+                  <input type="hidden" name="language" value="es-419">
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" /> 
+                  <a href="#" class="flag_fr" onclick="document.setLangSpanish.submit();return false;">ESP</a>
+              </form>
+            </li>
+			<li class="language_item">
+              <form name="setLangPortuguese" action="/i18n/setlang/" method="POST">
+                  <input name="next" type="hidden" value="/">
+                  <input type="hidden" name="language" value="pt-br">
+                  <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token}" /> 
+                  <a href="#" class="flag_fr" onclick="document.setLangPortuguese.submit();return false;">POR</a>
+              </form>
+            </li>
+        </ul>
+      </li>
+    </ol>
 </%block>
 
 ## When authenticated, show both the about page and find courses
@@ -34,5 +65,5 @@
   <li class="nav-global-02">
     <a href="${marketing_link('COURSES')}">Find Courses</a>
   </li>
+  aaaa
 </%block>
-
