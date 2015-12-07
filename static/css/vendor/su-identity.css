@@ -276,6 +276,18 @@ Media queries
    height:113px;
 }
 
+.su-footer-developed a {
+  text-decoration: underline;
+}
+
+
+.languages_choice {
+  margin-left: 50px;
+  margin-top: 1px;
+}
+
+
+
 /* Start new footer */
 #su-footer, 
 #su-footer .su-container {
@@ -392,6 +404,44 @@ Media queries
 }
 /* End new footer */
 
+/*  FAQ styles */
+
+
+li.pregunta { 
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+li.respuesta { 	
+}
+
+ul.faq { list-style-type: none; }
+
+ul.faqlanguage { 
+
+list-style-type: none; 
+padding-right:30px;
+
+}
+
+
+ul.faqlanguage li {
+    display: inline;
+    margin-right: 15px;
+}
+
+h2.faqtitle {
+	font-size:1.3em;
+	font-weight:bold;
+	text-align: center;
+}
+
+h3.faqsubtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+}
 
 /*
 Sticky Footer Solution
