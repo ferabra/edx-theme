@@ -443,6 +443,19 @@ h3.faqsubtitle {
     font-weight: bold;
 }
 
+img.lang_flag {
+   margin-bottom: 3px;
+   margin-right: 5px;
+}
+
+a[href^="#ESP"]:after,
+a[href^="#ENG"]:after {
+   padding-left: 5px;
+   content: '|';
+}
+
+
+
 /*
 Sticky Footer Solution
 by Steve Hatcher 
